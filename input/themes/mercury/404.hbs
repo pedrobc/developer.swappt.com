@@ -1,0 +1,21 @@
+{{> head}}
+<div class="container">
+    <header class="js-top">
+        <a class="logo" href="{{@website.url}}">
+            {{#if @website.logo}}
+                <img src="{{@website.logo}}" alt="{{@website.name}}">
+            {{else}}
+                {{@website.name}}
+            {{/if}}
+        </a>
+        {{> menu menus.mainMenu}}
+    </header>
+    <main>
+        <article class="post u-wrapper">
+            <header class="hero">
+                <h1>{{ translate 'error.404' }}</h1>
+            </header>
+            <p>{{ translate 'error.message' }}</p>
+        </article>
+    </main>
+    {{> footer}}
