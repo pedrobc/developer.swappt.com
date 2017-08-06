@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "developerswapptcom",
+    "description": "",
+    "home_page_url": "http://dev.swappt.com",
+    "feed_url": "http://dev.swappt.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "swappt.com"
+    },
+    "items": [
+    ]
+}
